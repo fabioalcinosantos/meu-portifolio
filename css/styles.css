@@ -1,0 +1,299 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400);
+
+html,
+body {
+    height: 100%;
+    background: center no-repeat fixed url('../img/foto-cafe.png');
+    background-size: cover;
+    color: #444;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ------------------
+NAV
+------------------ */
+.btn,
+.well,
+.panel {
+    border-radius: 0;
+}
+.btn-danger,
+.btn-danger.active,
+.btn-danger:active,
+.btn-danger.active.focus,
+.btn-danger:focus,
+.btn-danger:active:hover {
+    background-color: #3cad6e !important;
+    border-color: #5af39e;
+}
+.btn-danger:hover {
+    background-color: #3cad6e;
+    border-color: #3cad6e;
+    color: #000;
+}
+.text-danger,
+a.text-danger {
+    color: #3cad6e;
+}
+a {
+    color: #3cad6e;
+}
+.btn-huge {
+    padding: 17px 22px;
+    font-size: 22px;
+}
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+.bitter {
+    font-family: 'Bitter', serif;
+}
+.icon-bar {
+    background-color: #fff;
+}
+.navbar-brand:hover {
+    color: #5af39e;
+}
+.navbar-trans {
+    background-color: #2b2b2b;
+    color: #cdcdcd;
+    border-width: 0;
+}
+.navbar-trans .navbar-brand,
+.navbar-trans >.container-fluid .navbar-brand {
+    padding: 14px;
+    color: #3cad6e;
+}
+.navbar-trans li>a:focus,
+.navbar-trans li.active {
+    background-color: #3cad6e;
+    color: #333;
+}
+.navbar-trans li>a:hover {
+    background-color: #3cad6e;
+    color: #fff;
+    opacity: 0.5;
+}
+.navbar-trans li>a:active,
+.navbar-trans li>a:focus {
+    color: #fff;
+}
+.navbar-trans a {
+    color: #cdcdcd;
+    letter-spacing: 1px;
+}
+.navbar-trans .form-control:focus {
+    border-color: #eee;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+}
+
+/* ------------------
+SCROLL
+------------------ */
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    padding: 7px;
+    text-align: center;
+    z-index: -1;
+    color: #3cad6e;
+}
+.scroll-up {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    bottom: 2em;
+    right: 2em;
+}
+.scroll-up a {
+    background-color: rgba(135, 135, 135, 0.5);
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+/* ------------------
+SECTION
+------------------ */
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+/* ------------------
+HOME
+------------------ */
+.home,
+.portfolio {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: 'Bitter', serif;
+}
+.avatar {
+    border-radius: 30px;
+}
+
+/* ------------------
+SOBRE
+------------------ */
+.sobre {
+    background-color: #efefef;
+}
+.sobre p {
+    text-align: justify;
+}
+.sobre img {
+    padding-right: 10px;
+}
+.sobre a,
+.contato a {
+    color: #3cad6e;
+}
+.fatec {
+    width: 180px;
+    position: relative;
+    float: left;
+}
+.puc {
+    width: 130px;
+    position: relative;
+    float: left;
+}
+
+/* ------------------
+CARREIRA
+------------------ */
+.carreira{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #efefef;
+}
+.carreira h1{
+    color: #5af39e;
+}
+
+/* ------------------
+PORTFOLIO
+------------------ */
+.portfolio {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.portfolio h1 {
+    color: #3cad6e;
+}
+.portfolio h4 {
+    text-decoration: underline;
+}
+.portfolio a:hover {
+    color: #3cad6e;
+}
+
+/* ------------------
+CONTATO
+------------------ */
+.contato {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contato h1 {
+    color: #5af39e;
+}
+.contato a {
+    color: #fff;
+}
+.contato a:hover {
+    color: #3cad6e;
+}
+
+/* ------------------
+REDES SOCIAIS
+------------------ */
+.redesSociais {
+    background-color: #efefef;
+    color: #000;
+    min-height: 130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.redesSociais a {
+    color: #2b2b2b;
+}
+.redesSociais a:hover {
+    color: #3cad6e;
+}
+
+/* ------------------
+FOOTER
+------------------ */
+footer {
+    background-color: #2b2b2b;
+    color: #ddd;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+footer .nav>li>a {
+    padding: 3px;
+    color: #3cad6e;
+}
+footer .nav>li>a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ------------------
+ESTILIZAÇÕES GERAIS
+------------------ */
+a {
+    color: #888;
+}
+a:hover {
+    color: #111;
+}
+.sublinhar {
+    text-decoration: underline;
+}
+.alinhar-centro {
+    align-content: center;
+}
+.arredondar-img {
+    border-radius: 10px;
+}
+
+/* ------------------
+MEDIA QUERY
+------------------ */
+@media (min-width:766px) {
+    h1 {
+        font-size: 68px;
+    }
+
+    .v-center {
+        height: 50%;
+        overflow: visible;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+}
